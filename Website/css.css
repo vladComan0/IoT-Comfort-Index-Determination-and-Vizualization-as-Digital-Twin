@@ -1,0 +1,163 @@
+    body {
+        align-items: center;
+    }
+    
+    #title {
+        width: 100%;
+        height: 300px;
+        display: list-item;
+        justify-content: center;
+        align-items: center;
+        color: rgb(110, 94, 72);
+        background-color: rgb(222, 190, 113);
+        border-radius: 20px;
+        padding-top: 0px;
+    }
+    
+    #menu {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        text-align: center;
+        color: red;
+        background-color: lightgoldenrodyellow;
+        border-radius: 20px;
+    }
+    
+    #info {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: right;
+        align-items: left;
+        text-align: center;
+        color: red;
+        background-color: lightgoldenrodyellow;
+        border-radius: 20px;
+    }
+    
+    #date {
+        width: 800px;
+        height: 320px;
+        display: inline;
+        position: relative;
+        top: 10px;
+        right: 800px;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        color: rgb(110, 94, 72);
+        background-color: rgb(222, 190, 113);
+        border-radius: 20px;
+    }
+    
+    #comfort {
+        width: 300px;
+        height: 140px;
+        display: inline;
+        position: relative;
+        top: 10px;
+        right: 500px;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        color: rgb(110, 94, 72);
+        background-color: sandybrown;
+        border-radius: 20px;
+    }
+    
+    h1 {
+        color: rgb(110, 94, 72);
+        height: 20%;
+        width: 100%;
+        text-align: center;
+        font-size: 72px;
+        padding-top: 50px;
+    }
+    
+    h2 {
+        color: rgb(110, 94, 72);
+        height: 20%;
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    h3 {
+        color: orange;
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    h4 {
+        color: rgb(110, 94, 72);
+        height: 20%;
+        width: 100%;
+        text-align: left;
+        font-size: 32px;
+    }
+    
+    h5 {
+        color: rgb(110, 94, 72);
+        text-align: left;
+        font-size: 24px;
+        padding-left: 10px;
+    }
+    
+    h6 {
+        color: rgb(110, 94, 72);
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    div {
+        display: grid;
+        grid-template-columns: 100px 50px 100px;
+        grid-template-rows: 80px auto 80px;
+        column-gap: 10px;
+        row-gap: 15px;
+        background-color: grey;
+        width: 100px;
+        height: 100px;
+    }
+    
+    #rooms {
+        color: rgb(110, 94, 72);
+        background-color: whitesmoke;
+        float: right;
+        display: flex;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        font-size: 24px;
+        margin: 25px;
+    }
+    
+    #button {
+        color: rgb(110, 94, 72);
+        background-color: whitesmoke;
+        width: 300px;
+        height: 40px;
+        font-size: 24px;
+    }
+
+    .items {
+        background-color: rgb(222, 190, 113);
+        width: 500px;
+        height: 70px;
+        border-radius: 20px;
+        font-size: 16px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .comfort-items {
+        background-color: sandybrown;
+        width: 300px;
+        height: 70px;
+        border-radius: 20px;
+        font-size: 16px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
